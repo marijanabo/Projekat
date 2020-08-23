@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Празан пројекат</title>
+</head>
+
+<body>
+    <div class="deo-1">
+        <div id="trenutno-stanje">
+
+            <p>Доступан буџет у Новембру 2019:</p>
+            <p id="dobit">0</p>
+            <div id="ukupno">
+                <div id="ukupni-prihodi">
+                    <span class="naziv">ПРИХОД</span> 
+                    <span id="uk-prihod" class="kolicina"></span>
+                    <!-- <p>Приход</p>
+                    <p>0</p> -->
+                </div>
+                <div id="ukupni-rashodi">
+                    <!-- <p>Расход</p>
+                    <p>0</p> -->
+                    <span id="naziv-uk-rashoda">РАСХОД</span>
+                    <span id="ukupna-vrednost-rashoda">
+                        <span id="uk-rashod"></span>
+                        <span id="uk-procenat"></span>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="deo-2">
+        <form id="forma"> 
+            
+                <select id="select-box">
+                    <option value="-1" selected disabled>-</option>
+                    <option value="prihod" id='select-prihod'>Приход</option>
+                    <option value="rashod" id='select-rashod'>Расход</option>
+                </select>
+                <input type="text" placeholder="Опис" id="opis-transakcije">
+                <input type="text" placeholder="Износ" id="iznos-transakcije">
+                <input type="submit" value="✔" id="potvrdi">
+            
+        </form>
+    </div>
+    
+    <div class="deo-3">
+        <div id="prihodi-rashodi">
+            <ul id="prihodi">
+                <h1>ПРИХОДИ</h1>
+                <!-- lista prihoda -->
+            </ul>
+            <ul id="rashodi">
+                <h1>РАСХОДИ</h1>
+                <!-- lista rashoda -->
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- <script type="module" src="./src/provere.js"></script> 
+    <script type="module" src="./src/index.js"></script>  -->
+</body>
+
+</html>
+

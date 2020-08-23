@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.deo-1{
+    background-color: rgb(160, 157, 157);
+    height: 35vh;
+    text-align: center;
+}
+
+#trenutno-stanje > p {
+    color: white;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+#trenutno-stanje #dobit{
+    font-size: 55px;
+    padding-top: 8px;
+}
+
+#ukupno {
+    align-content: center;
+    font-family: Calibri;
+    padding-top: 10px;
+}
+
+#ukupni-prihodi{
+    height: 41px;
+    width: 300px;
+    background-color: rgb(55, 160, 160);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.naziv{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.kolicina{
+    float: right;
+    margin-right: 43px;
+    margin-top: 10px;
+    color: white;
+}
+
+#ukupni-rashodi{
+    height: 41px;
+    width: 300px;
+    background-color: rgb(221, 58, 58);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#naziv-uk-rashoda{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#ukupna-vrednost-rashoda{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+#uk-procenat{
+    font-size: 15px;
+    height: 35px;
+    background-color: rgb(223, 195, 195);
+    color: rgb(221, 58, 58);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.deo-2{
+    background-color: rgb(240, 240, 240);
+    height: 10vh;
+}
+
+.deo-3{
+    background-color: white;
+    height: 55vh;
+}
+
+.deo-2 form {
+    text-align: center;
+}
+
+.deo-2 form > select, input, button {
+    height: 45px;
+    margin-top: 8px
+}
+
+#select-box{
+    border: 1px solid rgb(180, 179, 179);
+
+}
+
+.deo-2 form > #opis-transakcije {
+    width: 400px; 
+    border: 1px solid rgb(180, 179, 179);
+    padding-left: 10px;
+}
+
+.deo-2 form > #iznos-transakcije {
+    width: 100px;
+    border: 1px solid rgb(180, 179, 179);
+    padding-left: 10px;
+}
+
+#potvrdi{
+    border: 2px solid rgb(221, 58, 58);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: rgb(221, 58, 58);
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#prihodi-rashodi{
+    font-family: Calibri;
+    margin: 80px;
+}
+
+#prihodi{
+    float: left;
+    width: 40vw;
+    font-size: 25px;
+    color: rgb(55, 160, 160);
+    padding-bottom: 15px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+h1{
+    font-family: Calibri;
+    font-weight: 200;
+    font-size: 35px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+}
+
+li{
+    height: 40px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+    padding-top: 5px;
+}
+
+#rashodi{
+    float: right;
+    width: 40vw;
+    font-size: 25px;
+    color: rgb(221, 58, 58);
+    padding-bottom: 15px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.opis-prihoda{
+    float: left;
+    color: black;
+}
+
+.iznos-prihoda{
+    float: right; 
+    color: rgb(55, 160, 160);
+} 
+
+li > button{
+    text-align: center;
+}
+
+.delete-button{
+    background-color: rgb(180, 179, 179);
+    height: 37px;
+}
+
+.opis-rashoda{
+    float: left;
+    color: black;
+}
+
+.vrednost-rashoda{
+    float: right; 
+    color: rgb(221, 58, 58);
+}
+
+.procenat{
+    font-size: 15px;
+    height: 35px;
+    background-color: rgb(223, 195, 195);
+    color: rgb(221, 58, 58);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
