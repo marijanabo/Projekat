@@ -71,8 +71,10 @@ export const addElemToRashod = () => {
     sumaRashoda -= Number(inputIznos.value);
     ukupanRashod.textContent = sumaRashoda.toFixed(2) 
 
-    sumaProcenata += (Number(inputIznos.value) * 100) / sumaPrihoda
-    ukProcenat.textContent = sumaProcenata + '%'
+    if(sumaPrihoda !== 0){
+        sumaProcenata += (Number(inputIznos.value) * 100) / sumaPrihoda
+        ukProcenat.textContent = sumaProcenata.toFixed(2) + '%'
+    }
 
     budzet -= Number(inputIznos.value)
     dobit.textContent = budzet.toFixed(2) 
@@ -93,14 +95,20 @@ export const addElemToRashod = () => {
 
         spanVrednosti.appendChild(spanIznos)
 
-            if(sumaPrihoda !== null){
+            if(sumaPrihoda !== 0){
                 const spanProcenat = document.createElement('span')
                 spanProcenat.className = 'procenat'
                 procenat = (Number(inputIznos.value) * 100) / sumaPrihoda
-                spanProcenat.textContent = procenat + '%'
+                spanProcenat.textContent = procenat.toFixed(2) + '%'
                 spanVrednosti.appendChild(spanProcenat)
             }
-        
+            // else{
+            //     const spanProcenat = document.createElement('span')
+            //     spanProcenat.className = 'procenat'
+            //     procenat = (Number(inputIznos.value) * 100) / sumaPrihoda
+            //     spanProcenat.textContent = ""
+            //     spanVrednosti.appendChild(spanProcenat)
+            // }
 
     li.append(spanOpis, spanVrednosti)
 
